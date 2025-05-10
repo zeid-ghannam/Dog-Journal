@@ -69,7 +69,7 @@ class HomeScreen extends GetView<HomeScreenController> {
           ),
           Obx(() {
             if (controller.imagePath.value.isEmpty) {
-              return const Text("No image selected");
+              return const Text("");
             } else {
               return Stack(
                 clipBehavior: Clip.none,
